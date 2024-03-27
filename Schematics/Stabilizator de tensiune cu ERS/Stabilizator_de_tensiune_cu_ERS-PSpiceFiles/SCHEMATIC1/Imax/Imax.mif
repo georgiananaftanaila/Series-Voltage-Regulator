@@ -1,0 +1,7 @@
+ lib=, offset=480, size=667
+ lib=, offset=481, size=704
+ lib=, offset=476, size=771
+ lib=, offset=471, size=191
+ lib=, offset=497, size=476
+ lib="C:\Users\Administrator\Desktop\modele-spice-led-uri_2022 (2)\smls14bet\smls14bet\smls14bet.lib", offset=135, size=131
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133

@@ -1,0 +1,25 @@
+** Profile: "SCHEMATIC1-trans"  [ c:\users\administrator\desktop\p1_2023_431e_naftanaila_luiza_georgiana_sers_n17_orcad\schematics\stabilizator de tensiune cu ers\stabilizator_de_tensiune_cu_ers-pspicefiles\schematic1\trans.sim ] 
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bc846b.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/users/administrator/desktop/modele-spice-led-uri_2022 (2)/smls14bet/smls14bet/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Administrator\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

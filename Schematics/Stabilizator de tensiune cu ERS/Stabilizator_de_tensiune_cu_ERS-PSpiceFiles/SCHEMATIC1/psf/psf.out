@@ -1,0 +1,251 @@
+
+**** 01/20/24 16:08:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ c:\users\administrator\desktop\p1_2023_431e_naftanaila_luiza_georgiana_sers_n17_orcad\schematics\sta
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "psf.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bc846b.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/users/administrator/desktop/p1-georgiana-final/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/users/administrator/desktop/modele-spice-led-uri_2022 (2)/smls14bet/smls14bet/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Administrator\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source STABILIZATOR_DE_TENSIUNE_CU_ERS
+R_R42         N236790 N237028  220 TC=0,0 
+R_RC5         N235664 N235676  0.47 TC=0,0 
+D_D5         0 N236434 BZX84-C5V1 
+R_R11         N236006 N235556  100 TC=0,0 
+R_R38         N236948 0  1k TC=0,0 
+Q_Q21         N235982 N237290 0 QBC817-25 
+R_R12         N235988 N251087  100 TC=0,0 
+Q_QESR1         N235556 N235982 N235782 QBC846B 
+R_R29         N236796 N236736  1k TC=0,0 
+R_R17         N236212 N236428  1k TC=0,0 
+Q_Q4         N235982 N236218 N236006 QBC807-25 
+R_R6         N235686 N235988  15k TC=0,0 
+R_R19         N236644 0  1k TC=0,0 
+X_P1         N236684 N251860 N251087 POT PARAMS: SET=1 VALUE=10k
+Q_Q3         N235982 N251860 N236650 QBC817-25 
+V_VCC         N235556 0 34
+R_R27         N236082 N236638  1k TC=0,0 
+R_R30         N237278 0  220 TC=0,0 
+D_D8         N235556 N236212 SMLS14BET 
+Q_QESR2         N235556 N235782 N235650 QMJD31C 
+R_RC4         N235664 N235676  0.47 TC=0,0 
+Q_Q20         N235982 N235650 N235686 QBC817-25 
+Q_Q1         N236218 N236218 N236000 QBC807-25 
+R_R39         N237338 0  33 TC=0,0 
+R_R10         N236000 N235556  100 TC=0,0 
+Q_Q19         N236434 N236082 N235802 QBC807-25 
+Q_Q24         N236736 N236736 N237278 QBC817-25 
+Q_Q5         N236650 N236736 N237284 QBC817-25 
+Q_Q12         N235556 N236736 N236790 QBC817-25 
+X_P2         N237028 N237290 N237338 POT PARAMS: SET=0.5 VALUE=100
+R_RC6         N235676 N235686  0.47 TC=0,0 
+R_R18         N236428 N236644  1k TC=0,0 
+Q_Q2         N236218 N236434 N236650 QBC817-25 
+R_R2         N235802 N235556  100 TC=0,0 
+R_RC1         N235650 N235664  1 TC=0,0 
+R_R41         N236684 N236948  10k TC=0,0 
+R_R8         N237284 0  220 TC=0,0 
+Q_Q22         N235788 N235788 N235556 QBC807-25 
+Q_Q23         N236082 N236082 N235788 QBC807-25 
+R_R28         N236638 N236796  1k TC=0,0 
+R_RLOAD4         N235686 N250064  1k TC=0,0 
+R_RLOAD1         N235686 N250068  1k TC=0,0 
+R_RLOAD2         N250064 0  680 TC=0,0 
+R_RLOAD3         N250068 0  680 TC=0,0 
+
+**** RESUMING psf.cir ****
+.END
+
+**** 01/20/24 16:08:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ c:\users\administrator\desktop\p1_2023_431e_naftanaila_luiza_georgiana_sers_n17_orcad\schematics\sta
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C5V1      SMLS14BET       
+          IS    2.666500E-18  405.890000E-24 
+           N     .82284         2.4475       
+         ISR  150.400000E-12                 
+         IKF     .01176          .98529      
+          BV    5.176                        
+         IBV     .10454                      
+          RS     .51617        15.483        
+          TT   43.858000E-09                 
+         CJO  232.290000E-12   38.500000E-12 
+          VJ     .79587          .87273      
+           M     .35004          .20189      
+          EG                    2.638        
+
+
+**** 01/20/24 16:08:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ c:\users\administrator\desktop\p1_2023_431e_naftanaila_luiza_georgiana_sers_n17_orcad\schematics\sta
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC807-25       QBC817-25       QBC846B         QMJD31C         
+               PNP             NPN             NPN             NPN             
+       LEVEL    1               1               1               1            
+          IS  108.000000E-15   91.980000E-15   18.220000E-15   90.620200E-12 
+          EG                                                    1.05         
+          BF  385.7           338.8           324.4             3.418700E+03 
+          NF     .99            1.003            .9932          1.17603      
+         VAF   31.29          107.9            82              29.2393       
+         IKF     .3603           .4913           .109            .108267     
+         ISE   27.130000E-15  446.800000E-18  289.400000E-18  537.193000E-09 
+          NE    1.4             1.65            1.4             4            
+          BR   20.57           29.48            8.29          367.353        
+          NR     .9849          1.002            .9931          5            
+         VAR   11.62           25              17.9             1.631        
+         IKR     .054            .193            .09            1.15207      
+         ISC  506.200000E-15    5.109000E-15    9.982000E-12    1.157540E-09 
+          NC    1.295           1.071           1.763           1.49179      
+         ISS    0               0               0               0            
+          RB    1               1              10              22.4853       
+         RBM     .5             1               5               1.000000E-12 
+         IRB    1.000000E-06    1.000000E+03    5.000000E-06    2.209370E-03 
+          RE     .1415           .2126           .649         100.000000E-06 
+          RC     .2623           .143            .7014           .138633     
+         CJE   51.140000E-12   38.250000E-12   12.440000E-12  373.889000E-12 
+         VJE     .8911           .7004           .7579           .67672      
+         MJE     .4417           .364            .3656           .575056     
+         CJC   26.560000E-12   12.700000E-12    3.347000E-12  352.510000E-12 
+         VJC     .62             .4431           .5463           .884306     
+         MJC     .4836           .3983           .391            .473486     
+        XCJC     .459            .4555           .6193           .1          
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+         MJS     .333            .333            .333            .5          
+          FC     .99             .905            .979            .8          
+          TF  735.900000E-12  522.900000E-12  490.800000E-12   10.000000E-09 
+         XTF    1.859         219.7             9.51            3.4926       
+         VTF    3.813           3.502           2.927          12.6615       
+         ITF     .4393          7.257            .3131           .052395     
+          TR   50.000000E-09   70.000000E-12   90.000000E-09    3.298030E-06 
+         XTB                                                  999.997000E-15 
+         XTI                                                    1.000000E-12 
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.42            2.42            2.42         
+           D     .52             .87             .87             .87         
+
+
+**** 01/20/24 16:08:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ c:\users\administrator\desktop\p1_2023_431e_naftanaila_luiza_georgiana_sers_n17_orcad\schematics\sta
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N235556)   34.0000                   (N235650)   17.1490                       
+
+(N235664)   17.1280                   (N235676)   17.1230                       
+
+(N235686)   17.1130                   (N235782)   17.7360                       
+
+(N235788)   33.3500                   (N235802)   33.3220                       
+
+(N235982)   18.3200                   (N235988)    9.9410                       
+
+(N236000)   33.5100                   (N236006)   33.5000                       
+
+(N236082)   32.7000                   (N236212)   31.0110                       
+
+(N236218)   32.8790                   (N236428)   20.6740                       
+
+(N236434)    5.1086                   (N236638)   22.7470                       
+
+(N236644)   10.3370                   (N236650)    4.4720                       
+
+(N236684)    5.1118                   (N236736)    2.8420                       
+
+(N236790)    2.1996                   (N236796)   12.7950                       
+
+(N236948)     .4647                   (N237028)     .8287                       
+
+(N237278)    2.1797                   (N237284)    2.1801                       
+
+(N237290)     .5172                   (N237338)     .2056                       
+
+(N250064)    6.9267                   (N250068)    6.9267                       
+
+(N251087)    9.8932                   (N251860)    5.1118                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VCC       -6.402E-02
+
+    TOTAL POWER DISSIPATION   2.18E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/20/24 16:08:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ c:\users\administrator\desktop\p1_2023_431e_naftanaila_luiza_georgiana_sers_n17_orcad\schematics\sta
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+
