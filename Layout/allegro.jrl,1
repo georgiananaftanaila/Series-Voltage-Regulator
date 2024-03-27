@@ -1,0 +1,97 @@
+\t (00:00:27) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:27)     Journal start - Sun Dec 10 13:43:48 2023
+\t (00:00:27)         Host=DESKTOP-I1N2L42 User=Administrator Pid=13052 CPUs=8
+\t (00:00:27) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:27) 
+\d (00:00:27) Design opened: C:/Users/Administrator/Desktop/P1_2023_431E_Naftanaila_Luiza_Georgiana_SERS_N17_OrCAD/Layout/Naftanaila Luiza Georgiana 431 E PDCE I 2023-2024.brd
+\i (00:00:27) etchedit 
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 1245.39 525.14
+\i (00:00:29) trapsize 561
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 1245.39 525.14
+\i (00:00:29) trapsize 1122
+\i (00:00:40) color192 
+\i (00:00:40) etchedit 
+\i (00:00:46) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:47) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:48) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:00:56) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:00:57) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:00:58) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:01:02) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:01:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:01:09) QtSignal CVDLayerTable VertHeader clickedCheckBox 21
+\i (00:01:09) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 21 0
+\i (00:01:13) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:01:14) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:01:17) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:01:21) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:01:24) QtSignal CVDLayerTable VertHeader clickedCheckBox 1
+\i (00:01:24) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:01:26) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:01:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:01:28) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:01:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:01:29) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:01:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:01:31) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:01:31) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:01:32) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:01:32) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:01:35) QtSignal CVDLayerTable VertHeader clickedCheckBox 4
+\i (00:01:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:01:36) QtSignal CVDLayerTable VertHeader clickedCheckBox 5
+\i (00:01:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:01:41) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:01:42) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox 0
+\i (00:01:42) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:43) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox 0
+\i (00:01:43) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:44) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox 0
+\i (00:01:44) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:47) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox 0
+\i (00:01:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:01:50) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 14 0
+\i (00:01:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 14 0
+\i (00:01:50) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:53) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 1092.81 1090.57
+\i (00:01:54) trapsize 2244
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 1092.82 1090.57
+\i (00:01:54) trapsize 4488
+\i (00:01:56) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:01:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:01:59) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:02:02) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:02:07) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 4 0
+\i (00:02:07) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:02:07) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:09) zoom in 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom in 1227.45 2239.38
+\i (00:02:09) trapsize 2244
+\i (00:02:09) zoom in 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom in 518.42 2257.33
+\i (00:02:09) trapsize 1122
+\i (00:02:11) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 3 0
+\i (00:02:11) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:02:11) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:13) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 2 0
+\i (00:02:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:02:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:15) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:02:17) zoom fit 
+\i (00:02:17) trapsize 1122
+\i (00:02:22) save 
+\i (00:02:29) fillin yes 
+\i (00:02:29) etchedit 
+\i (00:02:48) exit 
+\t (00:02:49)     Journal end - Sun Dec 10 13:46:10 2023

@@ -1,0 +1,25 @@
+\t (00:00:07) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Tue Dec 12 00:45:39 2023
+\t (00:00:07)         Host=DESKTOP-I1N2L42 User=Administrator Pid=14024 CPUs=8
+\t (00:00:07) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\d (00:00:08) Design opened: C:/Users/Administrator/Desktop/P1_2023_431E_Naftanaila_Luiza_Georgiana_SERS_N17_OrCAD/Layout/Naftanaila Luiza Georgiana 431 E PDCE I 2023-2024.brd
+\i (00:00:08) trapsize 1096
+\i (00:00:08) trapsize 1122
+\i (00:00:08) trapsize 1122
+\i (00:00:09) etchedit 
+\i (00:00:15) open 
+\i (00:00:27) fillin "C:\Users\Administrator\Downloads\Bradut de Craciun din leduri .brd"
+\i (00:00:27) cd "C:\Users\Administrator\Downloads"
+\t (00:00:27) Opening existing design...
+\e (00:00:27) ERROR(SPMHDB-238): The design is corrupted. It may have been copied from a different architecture using ASCII mode; copy using binary mode.
+\e (00:00:27) ERROR(SPMHDB-238): The design is corrupted. It may have been copied from a different architecture using ASCII mode; copy using binary mode.
+\i (00:00:29) fillin confirm
+\t (00:00:29) Starting new design...
+\i (00:00:29) trapsize 1179
+\i (00:00:31) fillin "menu_cancel"
+\i (00:00:31) etchedit 
+\i (00:00:32) exit 
+\t (00:00:33)     Journal end - Tue Dec 12 00:46:05 2023
